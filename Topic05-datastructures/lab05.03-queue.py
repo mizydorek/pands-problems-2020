@@ -17,5 +17,10 @@ for i in range(len(q)+1):
     if len(q) == 0:
         print('the queue is now empty')
         break
-    print('current Number is', q[0], q)
-    q.pop(0)
+    #Inserted pop() into print to meets task criteria 
+    print('current Number is', q.pop(0), q) 
+# also added while loop which works and gives same output 
+#while len(q) != 0:
+#    print('current Number is', q.pop(0), q)    
+#else:
+#    print('the queue is now empty')   
