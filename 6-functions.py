@@ -15,8 +15,8 @@ def f(x):
     return ans 
 
 def isprime(i):
-    # loops through values from 2 up to but not including i
-    for j in range(2, math.floor(math.sqrt(i)))ł:
+    # loops through values from 2 up to sqrt of the i 
+    for j in range(2, math.floor(math.sqrt(i))):
     # See if j divides i.
         if i % j == 0:
             # If it does, i is not a prime so return False
