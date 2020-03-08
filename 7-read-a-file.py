@@ -18,10 +18,10 @@ counter = 0
      #           counter += 1
       #  print(counter)
 
-# for loop to get lines from the text and inner loop to get every letter in line 
+# for loop to get lines from the text and inner loop to get every letter from line 
 # if statement to count how many e's in the file 
 for line in fileinput.input():
     for letter in line:
         if letter == 'e':
             counter += 1
-print(counter)
+print(counter)  
