@@ -14,6 +14,8 @@ with open('employee.txt') as csv_file:
             line_count += 1
     print(f'Processed {line_count} lines.')
 """
+
+'''
 with open('employee.txt') as csv_file:
     csv_reader = csv.DictReader(csv_file)
     line_count = 0 
@@ -25,3 +27,13 @@ with open('employee.txt') as csv_file:
             print(f'\t{row["name"]} works in the {row["department"]} department, and was born in {row["birthday month"]}.')
             line_count += 1
     print(f'Processed {line_count} lines.')
+
+with open('employee.txt', 'r') as reader:
+    employee = csv.reader(reader, delimiter=',')
+    for row in employee:
+        print(', '.join(row))
+'''
+with open('employee.txt', 'r') as reader:
+    employee = csv.DictReader(reader)
+    for row in employee:
+        print(f"{row['name']}")
