@@ -9,7 +9,7 @@ Repository contains weekly tasks in parent folder with number in front in their 
 * [5-weekday.py](https://github.com/mizydorek/pands-problems-2020/blob/master/5-weekday.py)
 * [6-squareroot](https://github.com/mizydorek/pands-problems-2020/blob/master/6-squareroot.py)
 * [7-read-a-file](https://github.com/mizydorek/pands-problems-2020/blob/master/7-read-a-file.py)
-* [8-plots]https://github.com/mizydorek/pands-problems-2020/blob/master/8-plots.py)
+* [8-plots](https://github.com/mizydorek/pands-problems-2020/blob/master/8-plots.py)
 
 ### Additional or modified exercises 
 
