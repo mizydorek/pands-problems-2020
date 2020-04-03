@@ -1,6 +1,9 @@
+# Maciej Izydorek
 # Function to square numbers
+
 import math 
 
+# 
 def power(x, y):
     ans = x
     y = y - 1

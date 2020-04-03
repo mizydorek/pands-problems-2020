@@ -13,7 +13,7 @@ f = x
 g = x**2
 h = x**3 
 
-# plot the functions
+# plot the functions and add labels
 plt.plot(x, f, 'b', label = 'f(x) = x')
 plt.plot(x, g, 'g', label = 'g(x) = x**2')
 plt.plot(x, h, 'r', label = 'h(x) = x**3')
